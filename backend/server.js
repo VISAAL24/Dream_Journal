@@ -11,7 +11,10 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173', // Your frontend URL
+  origin: [
+    'http://localhost:5173',
+    'https://dream-journal-2qbe.vercel.app'
+  ],
   credentials: true
 }));
 
