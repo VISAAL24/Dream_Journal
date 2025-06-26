@@ -1,0 +1,92 @@
+.dreamList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.dreamCard {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.dreamCard:hover {
+  transform: translateY(-2px);
+}
+
+.date {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.moodContainer {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.mood {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.happy {
+  background: var(--mood-happy);
+  color: #2e7d32;
+}
+
+.sad {
+  background: var(--mood-sad);
+  color: #1565c0;
+}
+
+.scary {
+  background: var(--mood-scary);
+  color: #6a1b9a;
+}
+
+.confusing {
+  background: var(--mood-confusing);
+  color: #e65100;
+}
+
+.neutral {
+  background: var(--mood-neutral);
+  color: #424242;
+}
+
+.exciting {
+  background: var(--mood-exciting);
+  color: #f9a825;
+}
+
+.lucid {
+  color: #6a1b9a;
+  font-size: 0.8rem;
+}
+
+.description {
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-light);
+}
+
+.error {
+  color: var(--error);
+  padding: 1rem;
+  background: #ffeeee;
+  border-radius: 4px;
+  text-align: center;
+}

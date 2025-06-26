@@ -1,0 +1,17 @@
+.homePage {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.homePage h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.homePage p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
